@@ -1,13 +1,28 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+/* --------------------------- W E L C O M E   P A G E ----------------------------------- */
+.welcomeContainer{
+  background-color: paleturquoise;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  .welcomeDoor{
+    background-color: palevioletred;
+  }
+
+  .startButton{
+    background-color: rgb(226, 178, 138); 
+  }
+
+  .feWelcomeText{
+    background-color: rgb(255, 129, 129); 
+  }
+
+  .portfolioWelcomeText{
+    background-color: rgb(129, 255, 213);
+  }
+
+  .invitationText{
+    background-color: rgb(228, 255, 129);
+  }
